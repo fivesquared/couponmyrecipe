@@ -58,7 +58,7 @@
 		<div class="callout panel">
 			<h3 style="margin-bottom:2px;">Instructions</h3>
 			<h6 style="margin-top:2px;">(or watch video on the right)</h6>
-			<ol style="margin:0px 20px 0px 20px;">
+			<ol style="margin:0px 20px 0px 20px; font-size:14pt;">
 			  <li>click and drag the 'CouponMyRecipe!' link above to your bookmarks bar (or folder)</li>
 			  <li>visit an online recipe website (like epicurious.com, foodnetwork.com or allrecipes.com) to look for the recipe of your choice</li>
 			  <li>once on a recipe page, click on the 'CouponMyRecipe!' bookmark from your bar (or folder)</li>
