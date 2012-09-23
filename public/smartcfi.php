@@ -19,7 +19,7 @@
 		$recipeStringArray = explode("/",$recipeURL);
 		$recipeStr = "";
 		for ($alli=0;$alli<count($recipeStringArray)-1;$alli++) {
-			$recipeStr = $recipeStringArray[$alli]."/";
+			$recipeStr = $recipeStr.$recipeStringArray[$alli]."/";
 		}
 		$recipeURL = $recipeStr."kitchenview.aspx";
 		//
