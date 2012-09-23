@@ -3,10 +3,10 @@
 	
 	// SQL data
 	mysql_connect(
-	  $server = "thinkminutes.com",
-	  $username = "couponapp",
-	  $password = "booth");
-	mysql_select_db("couponapp");
+	  $server = "a.db.shared.orchestra.io",
+	  $username = "user_71647a53",
+	  $password = "Innt(YS89FfRr1");
+	mysql_select_db("db_71647a53");
 	// we have a connection to the database opened
 	//
 	//
@@ -57,6 +57,7 @@
 		$ingredLine = $temp_arr[0]."";
 		// now we must go through the sql magic :)
 		$table = "coupon_deals";
+		//
 		$query = "SELECT id, ingredient, isactive from ".$table." WHERE LOCATE(LOWER(ingredient),LOWER('".$ingredLine."'))>0  ORDER BY LENGTH(ingredient) DESC";
 		//	
 		$result = mysql_query($query);
