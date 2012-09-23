@@ -10,6 +10,7 @@
 	// we have a connection to the database opened
 	//
 	//
+	echo "JSK!";
 	//
 	//
 	// the only thing this page needs is the url to the epicurious site
