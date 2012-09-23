@@ -75,9 +75,9 @@
   </div>
   <div class="row">
   	<div class="twelve columns">
-		<a href="http://www.epicurious.com" target="_blank"><img style="width:195px; height:55px;" src="./images/printer_friendly_epi_logo.gif" /></a>&nbsp;&nbsp;
-  		<a href="http://www.foodnetwork.com" target="_blank"><img style="width:55px; height:55px;" src="./images/FoodNetworkLogo.jpeg" /></a>&nbsp;&nbsp;
-  		<a href="http://www.allrecipes.com" target="_blank"><img style="width:105px; height:55px;" src="./images/ar_logo.gif" /></a>
+		<a href="http://www.epicurious.com/recipes/food/views/Grass-Fed-Beef-Meatloaf-in-a-Bacon-Blanket-368549" target="_blank"><img style="width:195px; height:55px;" src="./images/printer_friendly_epi_logo.gif" /></a>&nbsp;&nbsp;
+  		<a href="http://www.foodnetwork.com/recipes/ina-garten/lemon-chicken-breasts-recipe/index.html" target="_blank"><img style="width:55px; height:55px;" src="./images/FoodNetworkLogo.jpeg" /></a>&nbsp;&nbsp;
+  		<a href="http://allrecipes.com/recipe/sausage-pasta/detail.aspx?event8=1&prop24=SR_Title&e11=pasta&e8=Quick%20Search&event10=1&e7=Home%20Page" target="_blank"><img style="width:105px; height:55px;" src="./images/ar_logo.gif" /></a>
   	</div>
   </div>
   <br/>
