@@ -43,16 +43,16 @@
   <br/>
   <br/>
   <div class="row" align="center">
-    <div class="four columns"></div>
-	<div class="four columns">
+    <div class="two columns"></div>
+	<div class="eight columns">
 		<div class="panel radius">
 			<p class="lead">grab and drag the link below to your bookmarks</p>
 			<h3><a href="javascript:void((function()%7Bvar%20e%3Ddocument.createElement(%27script%27)%3Be.setAttribute(%27type%27,%27text/javascript%27)%3Be.setAttribute(%27charset%27,%27UTF-8%27)%3Be.setAttribute(%27src%27,%27http://couponmyrecipe.orchestra.io/swami-bmklt.js%3Fr%3D%27%2BMath.random()*99999999)%3Bdocument.body.appendChild(e)%7D)())%3B"><u>CouponMyRecipe!</u></a></h3>
 		</div>
 	</div>
-	<div class="four columns"></div>
+	<div class="two columns"></div>
   </div>
-  <hr/>
+  <hr style="margin-top:3px; margin-bottom:3px;"/>
   <div class="row">
 	<div class="six columns">
 		<div class="callout panel">
@@ -64,6 +64,7 @@
 			  <li>once on a recipe page, click on the 'CouponMyRecipe!' bookmark from your bar (or folder)</li>
 			  <li>you should see a pop-up with a list of coupons found for ingredients in your recipe</li>
 			  <li>select the coupons you'd like to use and print!</li>
+			  <li><strong>let us know what you think in the survey below</strong></li>
 			</ol>
 		</div>
 	</div>
