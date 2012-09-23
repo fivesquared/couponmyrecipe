@@ -26,6 +26,7 @@
 		$startIndex = 1;
 	}else if (stripos($recipeURL,"allrecipes.com") > 0){
 		$delim = 'class="ingredient-name">';
+		$tailDelim = "</span>";
 		$startIndex = 1;
 	}else if (stripos($recipeURL,"foodnetwork.com") > 0){
 		$delim = 'class="ingredient">';
