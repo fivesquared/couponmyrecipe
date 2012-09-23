@@ -1,4 +1,4 @@
-myRef = window.open('http://www.thinkminutes.com/coupons-app/smartcfi.php?curi='+document.location,'myRef','left=20,top=20,width=360,height=540,toolbar=0,resizable=1,menubar=0,status=0,scrollbars=yes');
+myRef = window.open('http://couponmyrecipe.orchestra.io/smartcfi.php?curi='+document.location,'myRef','left=20,top=20,width=360,height=540,toolbar=0,resizable=1,menubar=0,status=0,scrollbars=yes');
 //myRef.document.write('<title>Loading...</title>');
 /*
 if (!($ = window.jQuery)) { // typeof jQuery=='undefined' works too  
