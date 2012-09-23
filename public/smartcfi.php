@@ -254,7 +254,7 @@
 		deselectCoupon(i);
 	}
 
-	//
+	// 09-23 10:47am JSK
   </script>
 </body>
 </html>
