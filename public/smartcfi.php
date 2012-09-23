@@ -14,6 +14,16 @@
 	//
 	// the only thing this page needs is the url to the epicurious site
 	$recipeURL = $_GET["curi"];
+	// patch for allrecipes.com
+	if (stripos($recipeURL,"allrecipes.com") > 0){
+		$recipeStringArray = explode("/",$recipeURL);
+		$recipeStr = "";
+		for ($alli=0;$alli<count($recipeStringArray)-1;$alli++) {
+			$recipeStr = $recipeStringArray[$alli]."/";
+		}
+		$recipeURL = $recipeStr."kitchenview.aspx";
+		//
+	}
 	$menu_page = file_get_contents($recipeURL);
 	//
 	$urlParser = explode("/",$recipeURL);
@@ -24,7 +34,7 @@
 		$delim = 'class="ingredient">';
 		$startIndex = 1;
 	}else if (stripos($recipeURL,"allrecipes.com") > 0){
-		$delim = 'class="ingredient-name">';
+		$delim = '<li>';
 		$startIndex = 1;
 	}else if (stripos($recipeURL,"foodnetwork.com") > 0){
 		$delim = '<li class="ingredient" itemprop="ingredients">';

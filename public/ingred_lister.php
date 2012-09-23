@@ -3,12 +3,12 @@
 	$menu_page = file_get_contents($recipeURL);
 	//
 	$urlParser = explode("/",$recipeURL);
-	echo "<b>Only showing epicurious.com ingredients for:</b> " . $urlParser[count($urlParser)-1];
+	echo "<b>Only showing ingredients for:</b> " . $urlParser[count($urlParser)-1];
 	echo "<hr/>";
 	//
 	$delim = 'class="ingredient">';
 	// food network
-	$delim = '<li class="ingredient" itemprop="ingredients">';
+	$delim = '<li>';
 	$ingredient_array = explode($delim, $menu_page);
 	// only assuming Epicurious right now! 
 	for ($i=1;$i<count($ingredient_array);$i++){
