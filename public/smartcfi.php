@@ -27,7 +27,7 @@
 		$delim = 'class="ingredient-name">';
 		$startIndex = 1;
 	}else if (stripos($recipeURL,"foodnetwork.com") > 0){
-		$delim = 'class="ingredient">';
+		$delim = '<li class="ingredient" itemprop="ingredients">';
 		$startIndex = 1;
 	}else if (stripos($recipeURL,"punchfork.com") > 0){
 		$delim = 'itemprop="ingredients">';

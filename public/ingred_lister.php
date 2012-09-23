@@ -7,6 +7,8 @@
 	echo "<hr/>";
 	//
 	$delim = 'class="ingredient">';
+	// food network
+	$delim = '<li class="ingredient" itemprop="ingredients">';
 	$ingredient_array = explode($delim, $menu_page);
 	// only assuming Epicurious right now! 
 	for ($i=1;$i<count($ingredient_array);$i++){
