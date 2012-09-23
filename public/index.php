@@ -52,7 +52,6 @@
 	</div>
 	<div class="two columns"></div>
   </div>
-  <hr style="margin-top:3px; margin-bottom:3px;"/>
   <div class="row">
 	<div class="six columns">
 		<div class="callout panel">
@@ -60,7 +59,7 @@
 			<h6 style="margin-top:2px;">(or watch video on the right)</h6>
 			<ol style="margin:0px 20px 0px 20px; font-size:14pt;">
 			  <li>click and drag the 'CouponMyRecipe!' link above to your bookmarks bar (or folder)</li>
-			  <li>visit an online recipe website (like epicurious.com, foodnetwork.com or allrecipes.com) to look for the recipe of your choice</li>
+			  <li>click on one of the logos below to visit the recipe website and look for the recipe of your choice</li>
 			  <li>once on a recipe page, click on the 'CouponMyRecipe!' bookmark from your bar (or folder)</li>
 			  <li>you should see a pop-up with a list of coupons found for ingredients in your recipe</li>
 			  <li>select the coupons you'd like to use and print!</li>
@@ -73,6 +72,13 @@
 		  <iframe width="420" height="315" src="http://www.youtube.com/embed/Kzv6H831JGw" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
+  </div>
+  <div class="row">
+  	<div class="twelve columns">
+		<a href="http://www.epicurious.com" target="_blank"><img style="width:195px; height:55px;" src="./images/printer_friendly_epi_logo.gif" /></a>&nbsp;&nbsp;
+  		<a href="http://www.foodnetwork.com" target="_blank"><img style="width:55px; height:55px;" src="./images/FoodNetworkLogo.jpeg" /></a>&nbsp;&nbsp;
+  		<a href="http://www.allrecipes.com" target="_blank"><img style="width:105px; height:55px;" src="./images/ar_logo.gif" /></a>
+  	</div>
   </div>
   <br/>
   <div class="row">

@@ -24,7 +24,7 @@
 		$delim = 'class="ingredient">';
 		$startIndex = 1;
 	}else if (stripos($recipeURL,"allrecipes.com") > 0){
-		$delim = 'class="plaincharacterwrap ingredient">';
+		$delim = 'class="ingredient-name">';
 		$startIndex = 1;
 	}else if (stripos($recipeURL,"foodnetwork.com") > 0){
 		$delim = 'class="ingredient">';
