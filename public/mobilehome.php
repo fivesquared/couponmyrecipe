@@ -38,7 +38,7 @@
 	
 	</script>
 </head>
-<body>
+<body style="background:#000000;">
   <br/>
   <br/>
   <br/>
@@ -56,7 +56,7 @@
   <div class="row" align="center">
   	<div class="two columns"></div>
   	<div class="eight columns" align="center">
-  		<span class="label alert">© 2012 CouponMyRecipe. Patent Pending.</span>
+  		<span class="label">© 2012 CouponMyRecipe. Patent Pending.</span>
   	</div>
   	<div class="two columns"></div>
   </div>
