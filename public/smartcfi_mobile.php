@@ -34,7 +34,8 @@
 		$delim = 'class="ingredient">';
 		$startIndex = 1;
 	}else if (stripos($recipeURL,"allrecipes.com") > 0){
-		$delim = '<li>';
+		$delim = 'class="recipe-ingred_txt">';
+		$tailDelim = "</span>";
 		$startIndex = 1;
 	}else if (stripos($recipeURL,"foodnetwork.com") > 0){
 		$delim = '<li>';
