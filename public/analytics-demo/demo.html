@@ -30,14 +30,16 @@
 	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	})();
 
-	function sendEventToGA(category,action,opt_label,opt_value){
-		if ((""+opt_value) != ""){
-			_gaq.push(['_trackEvent', category, action, opt_label, parseInt(""+opt_value)]);
-		}else if (opt_label != ""){
-			_gaq.push(['_trackEvent', category, action, opt_label]);
-		}else{
-			_gaq.push(['_trackEvent', category, action]);
-		}
+	function sendBasicEvent(category,action){
+		_gaq.push(['_trackEvent', category, action]);
+	}
+	
+	function sendEventWithLabel(category,action,opt_label){
+		_gaq.push(['_trackEvent', category, action, opt_label]);
+	}
+	
+	function sendEventWithLabelAndValue(category,action,opt_label,opt_value){
+		_gaq.push(['_trackEvent', category, action, opt_label, parseInt(""+opt_value)]);
 	}
 </script>
   <!-- IE Fix for HTML5 Tags -->
@@ -69,9 +71,9 @@
           <p><input type="text" id="sampleValue" placeholder="provide zipcode" maxlength="5"></p>
         </div>
         <div class="six columns" align="left">
-          <p><a href="#" class="small button" onClick="sendEventToGA('Coupons','Clicked');">track "Clicked" action</a></p>
-          <p><a href="#" class="small button" onClick="sendEventToGA('Coupons','Clicked',''+$('#sampleLabel').val());">track text for "Clicked" action</a></p>
-          <p><a href="#" class="small button" onClick="sendEventToGA('Coupons','Clicked','Zipcode',$('#sampleValue').val());">track zipcode for "Clicked" action</a></p>
+          <p><a href="#" class="small button" onClick="sendBasicEvent('CmRTest','Clicked');">track "Clicked" action</a></p>
+          <p><a href="#" class="small button" onClick="sendEventWithLabel('CmRTest','Clicked',''+$('#sampleLabel').val());">track text for "Clicked" action</a></p>
+          <p><a href="#" class="small button" onClick="sendEventWithLabelAndValue('CmRTest','Clicked','Zipcode',$('#sampleValue').val());">track zipcode for "Clicked" action</a></p>
         </div>
       </div>
     </div>
