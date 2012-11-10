@@ -32,6 +32,7 @@
 
 	function sendEventToGA(category,action,opt_label,opt_value){
 		if ((""+opt_value) != ""){
+			alert('here ' + opt_value);
 			_gaq.push(['_trackEvent', category, action, opt_label, opt_value]);
 		}else if (opt_label != ""){
 			_gaq.push(['_trackEvent', category, action, opt_label]);
