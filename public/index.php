@@ -43,14 +43,13 @@
   <br/>
   <br/>
   <div class="row" align="center">
-    <div class="two columns"></div>
-	<div class="eight columns">
+	<div class="six columns">
 		<div class="panel radius">
 			<p class="lead">grab and drag the link below to your bookmarks</p>
 			<h3><a href="javascript:void((function()%7Bvar%20e%3Ddocument.createElement(%27script%27)%3Be.setAttribute(%27type%27,%27text/javascript%27)%3Be.setAttribute(%27charset%27,%27UTF-8%27)%3Be.setAttribute(%27src%27,%27http://couponmyrecipe.orchestra.io/swami-bmklt.js%3Fr%3D%27%2BMath.random()*99999999)%3Bdocument.body.appendChild(e)%7D)())%3B"><u>CouponMyRecipe!</u></a></h3>
 		</div>
 	</div>
-	<div class="two columns"></div>
+	<div class="six columns">or would you like to try your own recipe?</div>
   </div>
   <div class="row">
 	<div class="six columns">
