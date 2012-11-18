@@ -21,7 +21,7 @@
 	$dealList = array();
 	$di=0;
 	// only assuming Epicurious right now!
-	for ($i=$startIndex;$i<count($ingredient_array);$i++){
+	for ($i=0;$i<count($ingredient_array);$i++){
 		//
 		// now let's find the ingredient line
 		$ingredLine = $ingredient_array[$i]."";
