@@ -45,7 +45,7 @@
   <div class="row" align="center">
 	<div class="twelve columns">
 		<div class="panel radius">
-			<h3>paste your ingredients below</h3>
+			<h3>paste your ingredient list</h3>
 			<p class="lead">
 				<textarea id="ingList" width="100%" height="320px"></textarea>
 			</p>
