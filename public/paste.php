@@ -47,7 +47,7 @@
 		<div class="panel radius">
 			<h3>paste your ingredients below</h3>
 			<p class="lead">
-				<textarea id="ingList" width="100%" height="150px"></textarea>
+				<textarea id="ingList" width="100%" height="320px"></textarea>
 			</p>
 			<a href="#" class="button medium radius" onclick="performPost()">find deals</a>
 		</div>
@@ -111,9 +111,8 @@
 		//
 		xmlhttp.onreadystatechange = function(){
 			if (xmlhttp.readyState==4 && xmlhttp.status==200){
-				alert('>> ' + xmlhttp.responseText);
+				document.write('' + xmlhttp.responseText);
 	    		}else{
-				alert('issues');
 			}
 	  	}
 		xmlhttp.open("POST","smartcfi_paste.php",true);
