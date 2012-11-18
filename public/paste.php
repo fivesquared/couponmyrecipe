@@ -43,17 +43,15 @@
   <br/>
   <br/>
   <div class="row" align="center">
-	<div class="two columns"></div>
-	<div class="eight columns">
+	<div class="twelve columns">
 		<div class="panel radius">
 			<h3>paste your ingredients below</h3>
 			<p class="lead">
-				<textarea id="ingredientPaste" width="100%" height="150px"></textarea>
+				<textarea id="ingList" width="100%" height="150px"></textarea>
 			</p>
-			<a href="#" class="button medium radius">find deals</a>
+			<a href="#" class="button medium radius" onclick="performPost()">find deals</a>
 		</div>
 	</div>
-	<div class="two columns"></div>
   </div>
   <br/>
   <div class="row" align="center">
@@ -97,6 +95,33 @@
   
   <!-- Initialize JS Plugins -->
   <script src="javascripts/app.js"></script>
+
+  <script>
+	function getXHR(){
+  		var ret;
+  		if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+	  		ret=new XMLHttpRequest();
+	  	} else {// code for IE6, IE5
+	  		ret=new ActiveXObject("Microsoft.XMLHTTP");
+	  	}
+	  	return ret;
+  	}
+	function performPost(){
+		var xmlhttp = getXHR();
+		//
+		xmlhttp.onreadystatechange = function(){
+			if (xmlhttp.readyState==4 && xmlhttp.status==200){
+				alert('>> ' + xmlhttp.responseText);
+	    		}else{
+				alert('issues');
+			}
+	  	}
+		xmlhttp.open("POST","smartcfi_paste.php",true);
+		xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+		xmlhttp.send("inlist="+ingList.value);
+	}
+	
+  </script>
 
 </body>
 </html>
