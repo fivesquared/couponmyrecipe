@@ -107,6 +107,9 @@
 	  	return ret;
   	}
 	function performPost(){
+		//
+		var postString = (ingList.value.split('\n')).join('||~||');
+		//
 		var xmlhttp = getXHR();
 		//
 		xmlhttp.onreadystatechange = function(){
@@ -117,7 +120,7 @@
 	  	}
 		xmlhttp.open("POST","smartcfi_paste.php",true);
 		xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-		xmlhttp.send("inlist="+ingList.value);
+		xmlhttp.send("inlist="+postString);
 	}
 	
   </script>

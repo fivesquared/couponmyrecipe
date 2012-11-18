@@ -16,7 +16,7 @@
 	$recipeContents = $_POST["inlist"];
 	//
 	//
-	$ingredient_array = explode('\n', $recipeContents);
+	$ingredient_array = explode('||~||', $recipeContents);
 	//
 	$dealList = array();
 	$di=0;
