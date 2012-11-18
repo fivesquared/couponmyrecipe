@@ -23,9 +23,8 @@
 	// only assuming Epicurious right now!
 	for ($i=$startIndex;$i<count($ingredient_array);$i++){
 		//
-		$temp_arr = explode($tailDelim,$ingredient_array[$i]);
 		// now let's find the ingredient line
-		$ingredLine = $temp_arr[0]."";
+		$ingredLine = $ingredient_array[$i]."";
 		// now we must go through the sql magic :)
 		$table = "coupon_deals";
 		//
